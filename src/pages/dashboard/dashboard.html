@@ -1,0 +1,77 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Dashboard
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only solid>
+        <ion-icon name="information"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page1">
+  <div id="dashboard-container4">
+    <ion-list id="dashboard-list3">
+      <ion-item-divider color="primary" id="dashboard-list-item-divider1" style="font-size: 1.6rem;">
+        Notice <button ion-button color="secondary" style="float: right;">View</button>
+      </ion-item-divider>
+      <ion-item color="light" id="dashboard-list-item-container3">
+        <div id="dashboard-markdown4" class="show-list-numbers-and-dots" >
+          <p style="margin-top:0px;color:#000000;">
+            Some notice
+            <br /> dsdsds
+            <br /> sdsdsdsd
+          </p>
+        </div>
+      </ion-item>
+    </ion-list>
+  </div>
+  <div id="dashboard-container5" class="row">
+    <div id="dashboard-container12" class="col">
+      <ion-list id="dashboard-list10">
+        <ion-item-divider color="primary" id="dashboard-list-item-divider7" style="font-size: 1.6rem;">
+          Meal <button ion-button color="secondary" style="float: right;" on-click="goToMeal()">View</button>
+        </ion-item-divider>
+        <ion-item color="light" id="dashboard-list-item14">
+          Manage meal
+        </ion-item>
+      </ion-list>
+    </div>
+    <div id="dashboard-container11" class="col">
+      <ion-list id="dashboard-list9">
+        <ion-item-divider color="primary" id="dashboard-list-item-divider6" style="font-size: 1.6rem;">
+          Facility <button ion-button color="secondary" style="float: right;" on-click="goToFacility()">View</button>
+        </ion-item-divider>
+        <ion-item color="light" id="dashboard-list-item13">
+          Manage faciltiy
+        </ion-item>
+      </ion-list>
+    </div>
+  </div>
+  <div id="dashboard-container15" class="row">
+    <div id="dashboard-container13" class="col">
+      <ion-list id="dashboard-list11">
+        <ion-item-divider color="primary" id="dashboard-list-item-divider8" style="font-size: 1.6rem;">
+          Inventory <button ion-button color="secondary" style="float: right;" on-click="goToInventory()">View</button>
+        </ion-item-divider>
+        <ion-item color="light" id="dashboard-list-item15">
+          View inventory
+        </ion-item>
+      </ion-list>
+    </div>
+    <div id="dashboard-container14" class="col">
+      <ion-list id="dashboard-list12">
+        <ion-item-divider color="primary" id="dashboard-list-item-divider9" style="font-size: 1.6rem;">
+          Staff <button ion-button color="secondary" style="float: right;" on-click="goToStaffManpower()">View</button>
+        </ion-item-divider>
+        <ion-item color="light" id="dashboard-list-item16">
+          View staff
+        </ion-item>
+      </ion-list>
+    </div>
+  </div>
+</ion-content>
